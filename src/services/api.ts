@@ -1,6 +1,6 @@
 import type { ApiErrorPayload } from '../types'
 
-const baseUrl = (import.meta.env.VITE_API_URL || 'http://localhost:8080').replace(/\/$/, '')
+const baseUrl = 'https://agenda-salas.onrender.com'
 let basicCredentials: string | null = null
 let unauthorizedHandler: (() => void) | null = null
 
